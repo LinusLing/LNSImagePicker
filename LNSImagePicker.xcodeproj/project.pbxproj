@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15F50532250214B80031C847 /* FlashAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F50531250214B80031C847 /* FlashAlertView.swift */; };
+		15F50534250214C90031C847 /* LNSLoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F50533250214C90031C847 /* LNSLoadingViewController.swift */; };
+		A87A0951201594E0008B773F /* LNSImagePicker.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A87A0953201594E0008B773F /* LNSImagePicker.storyboard */; };
+		B115F3FC1D20C7C10051F937 /* LNSImagePickerAssetsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B115F3FB1D20C7C10051F937 /* LNSImagePickerAssetsModel.swift */; };
+		B115F3FE1D20C7EE0051F937 /* LNSImagePickerPhotosModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B115F3FD1D20C7EE0051F937 /* LNSImagePickerPhotosModel.swift */; };
+		B19BF6D71D82AAD600371F4F /* LNSImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19BF6D61D82AAD600371F4F /* LNSImagePickerController.swift */; };
+		B1A616471D7E6E7200B874E2 /* LNSImagePickerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A616461D7E6E7000B874E2 /* LNSImagePickerDataSource.swift */; };
+		B1A616491D7E6FB800B874E2 /* LNSImagePickerAlbumsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A616481D7E6FB800B874E2 /* LNSImagePickerAlbumsController.swift */; };
+		B1B0F2FE1CF32500008672D1 /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1B0F2FD1CF32500008672D1 /* Image.xcassets */; };
+		B1B0F3361CF329CC008672D1 /* LNSImagePickerPreviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B0F3341CF329CC008672D1 /* LNSImagePickerPreviewController.swift */; };
+		B1B0F3391CF329CC008672D1 /* LNSImagePickerAssetsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B0F3351CF329CC008672D1 /* LNSImagePickerAssetsController.swift */; };
+		B1B0F33D1CF32A0F008672D1 /* LNSImagePickerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B0F33C1CF32A0F008672D1 /* LNSImagePickerModel.swift */; };
+		B1B0F3421CF3E073008672D1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B0F3411CF3E073008672D1 /* Extensions.swift */; };
+		B1B0F3481CF3E101008672D1 /* LNSImagePickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B0F3471CF3E101008672D1 /* LNSImagePickerCell.swift */; };
+		B1B0F3541CF40AFB008672D1 /* LNSImagePickerFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B0F3531CF40AFB008672D1 /* LNSImagePickerFlowLayout.swift */; };
+		B1B0F3581CF42D68008672D1 /* VideoPickerPreviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B0F3571CF42D68008672D1 /* VideoPickerPreviewCell.swift */; };
+		B1B0F35C1CF42D97008672D1 /* ImagePickerPreviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B0F35B1CF42D97008672D1 /* ImagePickerPreviewCell.swift */; };
+		B1B0F3621CF4564D008672D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1B0F3611CF4564D008672D1 /* LaunchScreen.storyboard */; };
+		B1B0F3661CF47B61008672D1 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B0F3651CF47B61008672D1 /* TableViewController.swift */; };
+		B1B0F36A1CF47B71008672D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B0F3671CF47B71008672D1 /* AppDelegate.swift */; };
+		B1C557491D65B00100405A55 /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1C557481D65B00100405A55 /* Image.xcassets */; };
+		B1D10D671CF6A4EE00FA32F8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B1D10D6B1CF6A4EE00FA32F8 /* Localizable.strings */; };
+		B1D10D791CF6A8B200FA32F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1D10D7B1CF6A8B200FA32F8 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		15F50531250214B80031C847 /* FlashAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlashAlertView.swift; sourceTree = "<group>"; };
+		15F50533250214C90031C847 /* LNSLoadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LNSLoadingViewController.swift; sourceTree = "<group>"; };
+		A87A0952201594E0008B773F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LNSImagePicker.storyboard; sourceTree = "<group>"; };
+		A87A0957201594E4008B773F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LNSImagePicker.strings"; sourceTree = "<group>"; };
+		B115F3FB1D20C7C10051F937 /* LNSImagePickerAssetsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LNSImagePickerAssetsModel.swift; sourceTree = "<group>"; };
+		B115F3FD1D20C7EE0051F937 /* LNSImagePickerPhotosModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LNSImagePickerPhotosModel.swift; sourceTree = "<group>"; };
+		B161772C1D86D312004AE1F3 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		B19BF6D61D82AAD600371F4F /* LNSImagePickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LNSImagePickerController.swift; sourceTree = "<group>"; };
+		B1A616461D7E6E7000B874E2 /* LNSImagePickerDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LNSImagePickerDataSource.swift; sourceTree = "<group>"; };
+		B1A616481D7E6FB800B874E2 /* LNSImagePickerAlbumsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LNSImagePickerAlbumsController.swift; sourceTree = "<group>"; };
+		B1B0F2F31CF32500008672D1 /* LNSImagePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LNSImagePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1B0F2FD1CF32500008672D1 /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
+		B1B0F3341CF329CC008672D1 /* LNSImagePickerPreviewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LNSImagePickerPreviewController.swift; sourceTree = "<group>"; };
+		B1B0F3351CF329CC008672D1 /* LNSImagePickerAssetsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LNSImagePickerAssetsController.swift; sourceTree = "<group>"; };
+		B1B0F33C1CF32A0F008672D1 /* LNSImagePickerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LNSImagePickerModel.swift; sourceTree = "<group>"; };
+		B1B0F3411CF3E073008672D1 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		B1B0F3471CF3E101008672D1 /* LNSImagePickerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LNSImagePickerCell.swift; sourceTree = "<group>"; };
+		B1B0F3531CF40AFB008672D1 /* LNSImagePickerFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LNSImagePickerFlowLayout.swift; sourceTree = "<group>"; };
+		B1B0F3571CF42D68008672D1 /* VideoPickerPreviewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPickerPreviewCell.swift; sourceTree = "<group>"; };
+		B1B0F35B1CF42D97008672D1 /* ImagePickerPreviewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerPreviewCell.swift; sourceTree = "<group>"; };
+		B1B0F3611CF4564D008672D1 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B1B0F3651CF47B61008672D1 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		B1B0F3671CF47B71008672D1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B1B0F3681CF47B71008672D1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1C557481D65B00100405A55 /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
+		B1D10D6A1CF6A4EE00FA32F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B1D10D6D1CF6A50C00FA32F8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		B1D10D7A1CF6A8B200FA32F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1B0F2F01CF32500008672D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A87A094E201594D6008B773F /* IB */ = {
+			isa = PBXGroup;
+			children = (
+				A87A0953201594E0008B773F /* LNSImagePicker.storyboard */,
+			);
+			path = IB;
+			sourceTree = "<group>";
+		};
+		B1B0F2EA1CF32500008672D1 = {
+			isa = PBXGroup;
+			children = (
+				B1B0F2F51CF32500008672D1 /* LNSImagePicker */,
+				B1B0F2F41CF32500008672D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1B0F2F41CF32500008672D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1B0F2F31CF32500008672D1 /* LNSImagePicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1B0F2F51CF32500008672D1 /* LNSImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				B1B0F3241CF32627008672D1 /* LNSImagePicker */,
+				B1B0F3601CF451CB008672D1 /* Demo */,
+			);
+			path = LNSImagePicker;
+			sourceTree = "<group>";
+		};
+		B1B0F3241CF32627008672D1 /* LNSImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				B1B0F35F1CF45194008672D1 /* Resource */,
+				B1B0F3401CF3E064008672D1 /* Common */,
+				B1B0F3251CF32659008672D1 /* Controller */,
+				B1B0F3261CF32659008672D1 /* Model */,
+				B1B0F3271CF32659008672D1 /* View */,
+			);
+			path = LNSImagePicker;
+			sourceTree = "<group>";
+		};
+		B1B0F3251CF32659008672D1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B1B0F3341CF329CC008672D1 /* LNSImagePickerPreviewController.swift */,
+				B1B0F3351CF329CC008672D1 /* LNSImagePickerAssetsController.swift */,
+				B1A616481D7E6FB800B874E2 /* LNSImagePickerAlbumsController.swift */,
+				B19BF6D61D82AAD600371F4F /* LNSImagePickerController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B1B0F3261CF32659008672D1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B1B0F33C1CF32A0F008672D1 /* LNSImagePickerModel.swift */,
+				B115F3FB1D20C7C10051F937 /* LNSImagePickerAssetsModel.swift */,
+				B115F3FD1D20C7EE0051F937 /* LNSImagePickerPhotosModel.swift */,
+				B1A616461D7E6E7000B874E2 /* LNSImagePickerDataSource.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B1B0F3271CF32659008672D1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A87A094E201594D6008B773F /* IB */,
+				B1B0F3451CF3E0D0008672D1 /* Class */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B1B0F3401CF3E064008672D1 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				15F50533250214C90031C847 /* LNSLoadingViewController.swift */,
+				15F50531250214B80031C847 /* FlashAlertView.swift */,
+				B1B0F3411CF3E073008672D1 /* Extensions.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		B1B0F3451CF3E0D0008672D1 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				B1B0F3471CF3E101008672D1 /* LNSImagePickerCell.swift */,
+				B1B0F3531CF40AFB008672D1 /* LNSImagePickerFlowLayout.swift */,
+				B1B0F3571CF42D68008672D1 /* VideoPickerPreviewCell.swift */,
+				B1B0F35B1CF42D97008672D1 /* ImagePickerPreviewCell.swift */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		B1B0F35F1CF45194008672D1 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				B1B0F2FD1CF32500008672D1 /* Image.xcassets */,
+				B1D10D6B1CF6A4EE00FA32F8 /* Localizable.strings */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		B1B0F3601CF451CB008672D1 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				B1B0F3671CF47B71008672D1 /* AppDelegate.swift */,
+				B1B0F3681CF47B71008672D1 /* Info.plist */,
+				B1D10D7B1CF6A8B200FA32F8 /* Main.storyboard */,
+				B1B0F3651CF47B61008672D1 /* TableViewController.swift */,
+				B1B0F3611CF4564D008672D1 /* LaunchScreen.storyboard */,
+				B1C557481D65B00100405A55 /* Image.xcassets */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1B0F2F21CF32500008672D1 /* LNSImagePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1B0F31B1CF32501008672D1 /* Build configuration list for PBXNativeTarget "LNSImagePicker" */;
+			buildPhases = (
+				B1B0F2EF1CF32500008672D1 /* Sources */,
+				B1B0F2F01CF32500008672D1 /* Frameworks */,
+				B1B0F2F11CF32500008672D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LNSImagePicker;
+			productName = MTImagePicker;
+			productReference = B1B0F2F31CF32500008672D1 /* LNSImagePicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1B0F2EB1CF32500008672D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Luo;
+				TargetAttributes = {
+					B1B0F2F21CF32500008672D1 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 3VGF3GH4T5;
+						LastSwiftMigration = 0910;
+					};
+				};
+			};
+			buildConfigurationList = B1B0F2EE1CF32500008672D1 /* Build configuration list for PBXProject "LNSImagePicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = B1B0F2EA1CF32500008672D1;
+			productRefGroup = B1B0F2F41CF32500008672D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1B0F2F21CF32500008672D1 /* LNSImagePicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1B0F2F11CF32500008672D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1D10D671CF6A4EE00FA32F8 /* Localizable.strings in Resources */,
+				B1D10D791CF6A8B200FA32F8 /* Main.storyboard in Resources */,
+				B1B0F2FE1CF32500008672D1 /* Image.xcassets in Resources */,
+				B1C557491D65B00100405A55 /* Image.xcassets in Resources */,
+				B1B0F3621CF4564D008672D1 /* LaunchScreen.storyboard in Resources */,
+				A87A0951201594E0008B773F /* LNSImagePicker.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1B0F2EF1CF32500008672D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15F50534250214C90031C847 /* LNSLoadingViewController.swift in Sources */,
+				15F50532250214B80031C847 /* FlashAlertView.swift in Sources */,
+				B1B0F36A1CF47B71008672D1 /* AppDelegate.swift in Sources */,
+				B1B0F3541CF40AFB008672D1 /* LNSImagePickerFlowLayout.swift in Sources */,
+				B1B0F3581CF42D68008672D1 /* VideoPickerPreviewCell.swift in Sources */,
+				B1A616491D7E6FB800B874E2 /* LNSImagePickerAlbumsController.swift in Sources */,
+				B1B0F3421CF3E073008672D1 /* Extensions.swift in Sources */,
+				B115F3FE1D20C7EE0051F937 /* LNSImagePickerPhotosModel.swift in Sources */,
+				B1B0F3361CF329CC008672D1 /* LNSImagePickerPreviewController.swift in Sources */,
+				B115F3FC1D20C7C10051F937 /* LNSImagePickerAssetsModel.swift in Sources */,
+				B1B0F3661CF47B61008672D1 /* TableViewController.swift in Sources */,
+				B19BF6D71D82AAD600371F4F /* LNSImagePickerController.swift in Sources */,
+				B1B0F3391CF329CC008672D1 /* LNSImagePickerAssetsController.swift in Sources */,
+				B1B0F3481CF3E101008672D1 /* LNSImagePickerCell.swift in Sources */,
+				B1B0F35C1CF42D97008672D1 /* ImagePickerPreviewCell.swift in Sources */,
+				B1B0F33D1CF32A0F008672D1 /* LNSImagePickerModel.swift in Sources */,
+				B1A616471D7E6E7200B874E2 /* LNSImagePickerDataSource.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A87A0953201594E0008B773F /* LNSImagePicker.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A87A0952201594E0008B773F /* Base */,
+				A87A0957201594E4008B773F /* zh-Hans */,
+			);
+			name = LNSImagePicker.storyboard;
+			sourceTree = "<group>";
+		};
+		B1D10D6B1CF6A4EE00FA32F8 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1D10D6A1CF6A4EE00FA32F8 /* Base */,
+				B1D10D6D1CF6A50C00FA32F8 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		B1D10D7B1CF6A8B200FA32F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1D10D7A1CF6A8B200FA32F8 /* Base */,
+				B161772C1D86D312004AE1F3 /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1B0F3191CF32501008672D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B1B0F31A1CF32501008672D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1B0F31C1CF32501008672D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 3VGF3GH4T5;
+				INFOPLIST_FILE = "$(SRCROOT)/LNSImagePicker/Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.linusling.LNSImagePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		B1B0F31D1CF32501008672D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 3VGF3GH4T5;
+				INFOPLIST_FILE = "$(SRCROOT)/LNSImagePicker/Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.linusling.LNSImagePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1B0F2EE1CF32500008672D1 /* Build configuration list for PBXProject "LNSImagePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1B0F3191CF32501008672D1 /* Debug */,
+				B1B0F31A1CF32501008672D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1B0F31B1CF32501008672D1 /* Build configuration list for PBXNativeTarget "LNSImagePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1B0F31C1CF32501008672D1 /* Debug */,
+				B1B0F31D1CF32501008672D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1B0F2EB1CF32500008672D1 /* Project object */;
+}
