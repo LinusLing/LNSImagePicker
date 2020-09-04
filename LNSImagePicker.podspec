@@ -27,4 +27,6 @@ Pod::Spec.new do |s|
 
   s.resource_bundle =  { "LNSImagePicker" => "LNSImagePicker/LNSImagePicker/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}" }
 
+  s.swift_version = '4.0'
+
 end
