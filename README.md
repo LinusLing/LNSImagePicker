@@ -4,7 +4,7 @@ A WeiXin like multiple image and video picker which is compatible for iOS7+.You 
 # Announcement
 
 1. This repo fork from [MTImagePicker](https://github.com/luowenxing/MTImagePicker), and thanks to [MT](https://github.com/luowenxing) for his work.
-2. Fix some bugs and add some features as shown in []()
+2. Fix some bugs and add some features as shown in <a href="#Changelog">Changelog</a>
 
 
 # Demo
@@ -14,7 +14,7 @@ A WeiXin like multiple image and video picker which is compatible for iOS7+.You 
 * iOS7.0+
 * Build success in Xcode 11.6 Swift 4.0
 
-# Changelog
+# <a name="Changelog">Changelog</a> 
 
 <details>
 <summary>1.0.0</summary>
