@@ -8,7 +8,7 @@ A WeiXin like multiple image and video picker which is compatible for iOS7+.You 
 
 
 # Demo
-![demo](https://github.com/luowenxing/LNSImagePicker/blob/master/LNSImagePicker/Demo/demo.gif)
+![demo](https://github.com/LinusLing/LNSImagePicker/blob/master/LNSImagePicker/Demo/demo.gif)
 
 # Requirement
 * iOS7.0+
