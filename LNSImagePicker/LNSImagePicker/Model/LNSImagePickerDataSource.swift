@@ -10,6 +10,7 @@ import Foundation
 import UIKit
 import Photos
 import AssetsLibrary
+import PhotosUI
 
 @objc public enum LNSImagePickerSource:Int {
     case ALAsset
@@ -81,6 +82,8 @@ class LNSImagePickerDataSource {
         
         func chargeAuthorizationStatus(status: PHAuthorizationStatus,onAuthorized:@escaping () -> Void) {
             switch (status) {
+            case .limited:
+                onAuthorized()
             case .authorized:
                 onAuthorized()
             case .denied:
